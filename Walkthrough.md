@@ -1087,7 +1087,7 @@ After configuring the admin account, we can proceed to dumping the secret flag.
 `}`
 ```
 
-```aws secretsmanager list-secrets --query 'SecretList[*].Name' --output text --profile admin````
+```aws secretsmanager list-secrets --query 'SecretList[*].Name' --output text --profile admin```
 ```
 `┌─[pwnedlabs@cloud]─[~]`
 `└──╼ $ aws secretsmanager list-secrets --query 'SecretList[*].Name' --output text --profile admin`
